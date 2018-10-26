@@ -29,11 +29,15 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
+
+                    Intent intent = new Intent(MainActivity.this, RunnableActivity.class);
+                    startActivity(intent);
+
                     return true;
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);
 
-                    Intent intent = new Intent(MainActivity.this, Oauth2jwtActivity.class);
+                    intent = new Intent(MainActivity.this, Oauth2jwtActivity.class);
                     startActivity(intent);
 
                     return true;

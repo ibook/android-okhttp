@@ -22,7 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".HttpActivity" />
-        <activity android:name=".Oauth2jwtActivity"></activity>
+        <activity android:name=".Oauth2jwtActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".RunnableActivity"></activity>
     </application>
 
 </manifest>

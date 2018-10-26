@@ -21,6 +21,10 @@ public class HttpActivity extends AppCompatActivity {
     TextView textView;
     private Handler mHandler;
 
+
+    
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
